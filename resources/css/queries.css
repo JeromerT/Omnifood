@@ -12,7 +12,15 @@
 /*Small tablets to big tablets from 768 px to 1068px */
 @media only screen and (max-width:1068px) {
     body {font-size: 18px;}
-    .section-features  {padding: 40px 0;}
+    
+    .section-features,
+    .section-steps,
+    .section-cities,
+    .section-testimonials,
+    .section-plans,
+    .section-form{
+        padding-top: 15px;
+    }
     
     .long-copy {
         width: 80%;
@@ -48,7 +56,14 @@
     h1{font-size: 180%;}
     h2{font-size: 150%;}
     
-    .section-features  {padding: 30px 0;}
+    .section-features,
+    .section-steps,
+    .section-cities,
+    .section-testimonials,
+    .section-plans,
+    .section-form{
+        padding-top: 10px;
+    }
     
     .row,
     .hero-text-box{ padding: 0 4%; }
@@ -95,7 +110,14 @@
 }
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width:480px) {
-    .section-features  {padding: 20px 0;}
+    .section-features,
+    .section-steps,
+    .section-cities,
+    .section-testimonials,
+    .section-plans,
+    .section-form{
+        padding-top: 5px;
+    }
     .contact-form {width: 100%;}
 }
 
