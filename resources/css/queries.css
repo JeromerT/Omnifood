@@ -1,23 +1,101 @@
+/* Big tablet to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width:1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding:  0 2%;
 
-
-/* Small phones: from 0 to 480px */
-@media only screen and (max-width:480px) {
+    }
     
+    .row { padding: 0 2%; }
 }
+
+/*Small tablets to big tablets from 768 px to 1068px */
+@media only screen and (max-width:1068px) {
+    body {font-size: 18px;}
+    .section-features  {padding: 40px 0;}
+    
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .steps-box {margin-top: 5px;}
+    .steps-box:last-child {margin-top: 10px;}
+    .works-step {margin-bottom: 40px;}
+    .works-step:last-of-type {margin-bottom: 60px;}
+    
+    .app-screen{width: 45%;}
+    
+    .icon-small {
+        width: 17px;
+        margin-right:5px; }
+    .city-features{font-size: 90%;}
+    
+    .plan-box {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .plan-price {font-size: 250%;    }
+    
+    .contact-form {width: 80%;}
+}
+
 
 /* Small phones to small tablets from 481 including 767*/
 @media only screen and (max-width:767px) {
+    body {font-size: 16px;}
+    h1{font-size: 180%;}
+    h2{font-size: 150%;}
+    
+    .section-features  {padding: 30px 0;}
+    
+    .row,
+    .hero-text-box{ padding: 0 4%; }
+    
+    .col {
+        width: 100%;
+        margin: 0% 0 1% 0%;
+    }
+    
+    .main-nav {display: none;}
+    
+     .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .app-screen{width:35%; }
+    
+    .steps-box:first-child{text-align: center;}
+    
+    
+    .works-step section {
+        height: 30px;
+        width: 30px;
+        padding: 2px;
+        margin-right: 10px;
+        font-size: 110%;
+    }
+    
+    .btn-app img {
+        height: 50px;;
+        width: auto;
+        padding-left:  5%;
+        padding-right: 5%;
+        margin-right: 0px;
+
+        
+    }
+    
+    .works-step {margin-bottom: 20px;}
+    .works-step:last-of-type {margin-bottom: 20px;}
+    
     
 }
-
-
-/*Small tablets to big tablets from 768 px to 1023px */
-@media only screen and (max-width:1023px) {
-    
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width:480px) {
+    .section-features  {padding: 20px 0;}
+    .contact-form {width: 100%;}
 }
 
-
-/* Big tablet to 1200px (widths smaller than the 1140px row) */
-@media only screen and (max-width:1200px) {
-    
-}

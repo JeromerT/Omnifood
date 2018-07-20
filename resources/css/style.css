@@ -14,13 +14,15 @@ e67e22
     box-sizing: border-box;
 }
 
-html{
+html,
+body{
     background-color: #fff;
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .clearfix {zoom: 1}
@@ -390,7 +392,7 @@ blockquote::after {
     display: block;
     position: absolute;
     right: 3px;
-    bottom: 40px;
+    bottom: 21px;
 }
 cite {
     font-size: 90%;
