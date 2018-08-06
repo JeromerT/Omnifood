@@ -79,7 +79,7 @@ $(document).ready(function() {
     });
     
     $('.js--wp-4').waypoint(function(direction) {
-        $('.js--wp-4').addClass('animated fadeIn');
+        $('.js--wp-4').addClass('animated pulse');
     },{
        offset: '50%' 
     });
