@@ -588,6 +588,16 @@ input[type=checkbox] {
     width: 50%;
 }
 
+.form-messages {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.succes {background-color: #26bf44;}
+
 
 /*------------------------------------*/
 /*FOOTER*/
