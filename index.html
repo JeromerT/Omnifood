@@ -360,81 +360,86 @@
             </section>        
         </section>
         
-        <section class="section-form">
+        <section class="map-box">
         
-            <section class="row">
-                <h2>We're happy to hear from you</h2>
-            </section>
+            <div class="map"></div>
             
-            <section class="row">
-                <form method="post" action="#" class="contact-form">
-                    
-                    <section class="row">
-                        <section class="col span-1-of-3">
-                            <label for="name">Name</label>
+            <div class="form-box">
+                
+                <div class="row">
+                    <h2>We're happy to hear from you</h2>
+                </div>
+
+                <section class="row">
+                    <form method="post" action="#" class="contact-form">
+
+                        <section class="row">
+                            <section class="col span-1-of-3">
+                                <label for="name">Name</label>
+                            </section>
+
+                            <section class="col span-2-of-3">
+                                <input type="text" name="name" id="name" placeholder="Your name" required>
+                            </section>
                         </section>
-                        
-                        <section class="col span-2-of-3">
-                            <input type="text" name="name" id="name" placeholder="Your name" required>
+
+                        <section class="row">
+                            <section class="col span-1-of-3">
+                                <label for="email">E-mail</label>
+                            </section>
+
+                            <section class="col span-2-of-3">
+                                <input type="email" name="email" id="email" placeholder="Your e-mail" required>
+                            </section>
                         </section>
-                    </section>
-                    
-                    <section class="row">
-                        <section class="col span-1-of-3">
-                            <label for="email">E-mail</label>
+
+                        <section class="row">
+                            <section class="col span-1-of-3">
+                                <label for="find-us">How did you find us</label>
+                            </section>
+
+                            <section class="col span-2-of-3">
+                                <select name="find-us" id="find-us">
+                                    <option value="Friends">Friends</option>
+                                    <option value="Google">Google</option>
+                                    <option value="ad">Advertisement</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </section>
                         </section>
-                        
-                        <section class="col span-2-of-3">
-                            <input type="email" name="email" id="email" placeholder="Your e-mail" required>
+
+                        <section class="row">
+                            <section class="col span-1-of-3">
+                                <label for="news">Newsletter</label>
+                            </section>
+
+                            <section class="col span-2-of-3">
+                                <input type="checkbox" name="news" id="news">
+                            </section>
                         </section>
-                    </section>
-                    
-                    <section class="row">
-                        <section class="col span-1-of-3">
-                            <label for="find-us">How did you find us</label>
+
+                        <section class="row">
+                            <section class="col span-1-of-3">
+                                <label>Drop us a message</label>
+                            </section>
+
+                            <section class="col span-2-of-3">
+                                <textarea name="message" placeholder="Your message"></textarea>
+                            </section>
                         </section>
-                        
-                        <section class="col span-2-of-3">
-                            <select name="find-us" id="find-us">
-                                <option value="Friends">Friends</option>
-                                <option value="Google">Google</option>
-                                <option value="ad">Advertisement</option>
-                                <option value="Other">Other</option>
-                            </select>
+
+                        <section class="row">
+                            <section class="col span-1-of-3">
+                                <label>&nbsp;</label>
+                            </section>
+
+                            <section class="col span-2-of-3">
+                                <input type="submit" value="Send it!">
+                            </section>
                         </section>
-                    </section>
-                    
-                    <section class="row">
-                        <section class="col span-1-of-3">
-                            <label for="news">Newsletter</label>
-                        </section>
-                        
-                        <section class="col span-2-of-3">
-                            <input type="checkbox" name="news" id="news">
-                        </section>
-                    </section>
-                    
-                    <section class="row">
-                        <section class="col span-1-of-3">
-                            <label>Drop us a message</label>
-                        </section>
-                        
-                        <section class="col span-2-of-3">
-                            <textarea name="message" placeholder="Your message"></textarea>
-                        </section>
-                    </section>
-                    
-                    <section class="row">
-                        <section class="col span-1-of-3">
-                            <label>&nbsp;</label>
-                        </section>
-                        
-                        <section class="col span-2-of-3">
-                            <input type="submit" value="Send it!">
-                        </section>
-                    </section>
-                </form>
-            </section>
+                    </form>
+                </section>
+            </div>
             
         </section>
         
@@ -476,7 +481,9 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
         <script src="vendors/js/jquery.waypoints.min.js"></script>
+        <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
         <script src="resources/js/script.js"></script>
+        <script src="resources/js/gmaps.js"></script>
     </body>     
     
     
